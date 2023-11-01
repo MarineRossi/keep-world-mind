@@ -43,9 +43,7 @@ html, body {
 @media (max-width : 464px) {
     .nameGame {
         top: 0px;
-    } 
-    
-    
+    }
 }
 
 .nameGame h1{
