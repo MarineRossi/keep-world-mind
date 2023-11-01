@@ -33,6 +33,7 @@ document.getElementById("country").addEventListener("input", (e) => {
 
         updatePoints();
         addGoodAnswer(e.target.value);
+        e.target.value = ''
     }
     console.log(goodAnswers) // ex. France
 
