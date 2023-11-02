@@ -7,7 +7,7 @@ html, body {
 
 
 .btn {
-    color: red;
+    color: black;
     top: 500px;
     text-decoration: none;
     background-color: white;
@@ -15,6 +15,7 @@ html, body {
     width: 10em;
     height: 10em;
     display: inline-block;
+    font-size: 20px;
    
 }
 

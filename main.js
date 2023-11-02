@@ -28,8 +28,8 @@ document.getElementById("country").addEventListener("input", (e) => {
         !goodAnswers.includes(countryInput)
     ) {
         const country = newCountryArray[indexCountry]
-        document.querySelectorAll('.'+ country).forEach(value => value.style.fill="cyan"); 
-        document.querySelectorAll(`[name=${country}]`).forEach(value => value.style.fill="cyan"); 
+        document.querySelectorAll('.'+ country).forEach(value => value.style.fill= "indianRed"); 
+        document.querySelectorAll(`[name=${country}]`).forEach(value => value.style.fill="indianRed"); 
 
         updatePoints();
         addGoodAnswer(e.target.value);

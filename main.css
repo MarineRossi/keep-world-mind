@@ -1,27 +1,46 @@
-
 /* IMPUT*/
 
-   
 
-.label{
+
+.label {
     text-align: center;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.imput {
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 
-#worldMap{
-    width: 100%;
+#worldMap {
+    width: 90%;
     height: auto;
     margin-top: 100px;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color:#3973ad;
+    background-color: #3973ad;
 
 }
 
+#points {
+    font-family: "DS-Digital", sans-serif;;
+    font-size: 30px;
+    display: inline; 
+    color:white;    
+}
+
 #point-container {
-    align-items: normal;
+    font-family: "DS-Digital", sans-serif;
+    font-size: 30px;
+    color: white;
+
 }
