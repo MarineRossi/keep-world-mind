@@ -21,6 +21,7 @@ html, body {
 
 .btn a {
     margin-top: 40%;
+    text-decoration: none;
 }
 
 .imageetoile {
